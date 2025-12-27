@@ -1,0 +1,2 @@
+#!/bin/bash
+/Users/dom/Documents/Code/MISC/drtencryptor/.venv/bin/python /Users/dom/Documents/Code/MISC/drtencryptor/drt_encryptor.py "$@"
