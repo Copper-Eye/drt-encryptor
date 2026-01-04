@@ -12,7 +12,7 @@ rm -rf build dist drtencrypt.spec drtencrypt.pkg
 echo "Building binary with PyInstaller..."
 # --onefile: bundle everything into one executable
 # --name drtencrypt: name of the output binary
-pyinstaller --onefile --name drtencrypt drt_encryptor.py
+./.venv/bin/pyinstaller --onefile --name drtencrypt drt_encryptor.py
 
 if [ ! -f "dist/drtencrypt" ]; then
     echo "PyInstaller failed! No binary found."

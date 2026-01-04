@@ -1,24 +1,29 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .venv/
 venv/
-env/
+*.spec
 
 # Mac
 .DS_Store
 
-# Build Artifacts
+# IDE
+.vscode/
+.idea/
+
+# Distribution / Build
 build/
 dist/
-*.spec
 *.pkg
 
-# Project specific
-*.drt
-# Ignore local keys if present (though default is ~/.drtencryptor)
-*.key
+# Testing / Runtime
+*.log
 secret.key
-
-# Test files
-test_*.txt
+*.pem
+test_*.png
+test_*.wav
+*.drt
+*.drt-rsa
+decrypted_*
